@@ -1,0 +1,22 @@
+12:01:20.055 INFO  - Processing command line option -hwspec C:/Users/ecnu/labs/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml. 
+12:09:13.968 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:09:14.077 INFO  - PS initialization will be done as it is not done before. 
+12:09:14.077 INFO  - Running PS initialization.... 
+12:09:14.327 INFO  - ps7_init is completed. 
+12:09:14.436 INFO  - PS Initialization is complete. 
+12:09:48.591 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:09:53.289 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:10:17.892 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+12:10:17.908 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+12:10:51.383 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:10:51.383 INFO  - PS initialization will be done as it is not done before. 
+12:10:51.383 INFO  - Running PS initialization.... 
+12:10:51.585 INFO  - ps7_init is completed. 
+12:10:51.585 INFO  - PS Initialization is complete. 
+12:11:52.928 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:12:57.014 ERROR - Port COM4 is already in use. 
+12:12:57.404 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:12:57.513 INFO  - PS initialization will be done as it is not done before. 
+12:12:57.513 INFO  - Running PS initialization.... 
+12:12:57.919 INFO  - ps7_init is completed. 
+12:12:58.028 INFO  - PS Initialization is complete. 
