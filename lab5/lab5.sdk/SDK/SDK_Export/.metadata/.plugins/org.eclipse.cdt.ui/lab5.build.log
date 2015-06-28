@@ -1,0 +1,21 @@
+11:50:32 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.d" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25068	   1144	  22644	  48856	   bed8	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+
+11:50:36 Build Finished (took 3s.925ms)
+
